@@ -15,58 +15,61 @@ body{
 section{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
 }
 #bloc-1{
-    height: 300px;
+    height: 350px;
     width: 1160px;
+    margin: auto;
     justify-content: center;
-    align-items: center;
-    border: 1px solid black;  
+    align-items: center; 
     background-color: #782221;
 }
 #bloc-2{
     height: 80px;
-    background-color: #2c1d27;
-    border: 1px solid black;  
+    background-color: #2c1d27;  
 }
 address{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     align-items: center;
+    
 }
 #bloc-3{
     width: 300px;
-    border: 1px solid black; 
     background-color: #782221;
 }
 #bloc-4{
     width: 800px;
-    border: 1px solid black;  
+    padding-right: 20px;
+    
 }
 footer{
-    height: 70px;
+    height: 100px;
     width: 1160px;
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black; 
     background-color: #782221;
 }
 #a-propos{
     text-indent: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 20px;
     color: white;
     text-align: justify;
 }
 h3{
     background-color: #dbc2a4;
-    margin-left: 10px;
+    margin-right: 20px;
+    text-indent: 15px;
+    font-family: "Lato", sans-serif;
 }
 a{
     color: white;
@@ -76,16 +79,47 @@ h1{
     color: white;
 }
 h2{
+    
     font-family: "Lato", sans-serif;
     color: white;
-}
-h3{
-    font-family: "Lato", sans-serif;
 }
 #text1{
     color: white;
 }
-
+#icone{
+    width: 40px;
+    height: 40px;
+}
+figure{
+    width: 100%;
+    height: 100%;
+}
+#maj{
+    color: white;
+}
+#exp{
+    box-shadow: -5px 0 0 #782221;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+}
+div{
+    margin-left: 20px;
+}
+#photo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px black;
+}
+#mail{
+    margin-right: 80px;
+}
+main{
+    display: flex;
+}
 
 
 
